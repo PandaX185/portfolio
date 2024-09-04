@@ -1,4 +1,5 @@
 "use client";
+import IntroductionBlock from "@/components/IntroductionBlock";
 import {
   FaFacebook,
   FaGithub,
@@ -11,8 +12,10 @@ export default function Home() {
   const sectionStyle = "flex flex-col items-center justify-center h-screen";
 
   return (
-    <div>
-      <div className={sectionStyle}>Scroll to Next Section</div>
+    <div className="font-mono text-white">
+      <div className={sectionStyle}>
+        <IntroductionBlock />
+      </div>
 
       <div className={sectionStyle}>
         <h1>Part 2 of My Journey</h1>
