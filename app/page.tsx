@@ -1,4 +1,5 @@
 "use client";
+import ChildhoodBlock from "@/components/ChildhoodBlock";
 import IntroductionBlock from "@/components/IntroductionBlock";
 import {
   FaFacebook,
@@ -12,14 +13,13 @@ export default function Home() {
   const sectionStyle = "flex flex-col items-center justify-center h-screen";
 
   return (
-    <div className="font-mono text-white">
+    <div className="font-mono bg-gray-950 text-white animate-fadeIn">
       <div className={sectionStyle}>
         <IntroductionBlock />
       </div>
 
       <div className={sectionStyle}>
-        <h1>Part 2 of My Journey</h1>
-        Scroll to Next Section
+        <ChildhoodBlock />
       </div>
 
       <div className={sectionStyle}>
