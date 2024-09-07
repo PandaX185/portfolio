@@ -3,6 +3,7 @@ import ChildhoodBlock from "@/components/ChildhoodBlock";
 import EndCollegeBlock from "@/components/EndCollegeBlock";
 import IntroductionBlock from "@/components/IntroductionBlock";
 import MidCollegeBlock from "@/components/MidCollegeBlock";
+import PostCollegeBlock from "@/components/PostCollegeBlock";
 import {
   FaFacebook,
   FaGithub,
@@ -15,20 +16,33 @@ export default function Home() {
   const sectionStyle = "flex flex-col items-center justify-center h-screen";
 
   return (
-    <div className="font-mono bg-gray-950 text-white animate-fadeIn">
+    <div className="font-mono bg-gray-950 text-white animate-fadeIn pb-4">
       <div className={sectionStyle}>
         <IntroductionBlock />
       </div>
-
+      <div className="w-full text-center py-16 my-4 text-4xl text-gray-500">
+        <h1>Childhood</h1>
+      </div>
       <div className={sectionStyle}>
         <ChildhoodBlock />
       </div>
-
+      <div className="w-full text-center py-16 my-4 text-4xl text-gray-500">
+        <h1>Mid college</h1>
+      </div>
       <div className={sectionStyle}>
         <MidCollegeBlock />
       </div>
+      <div className="w-full text-center py-16 my-4 text-4xl text-gray-500">
+        <h1>Graduation</h1>
+      </div>
       <div className={sectionStyle}>
         <EndCollegeBlock />
+      </div>
+      <div className="w-full text-center py-16 my-4 text-4xl text-gray-500">
+        <h1>After college...</h1>
+      </div>
+      <div className={sectionStyle}>
+        <PostCollegeBlock />
       </div>
       <div className="fixed bottom-5 right-5">
         <div className="flex flex-row-reverse gap-2">
