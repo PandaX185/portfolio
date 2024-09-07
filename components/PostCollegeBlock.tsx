@@ -39,6 +39,12 @@ const PostCollegeBlock = () => {
         imageUrl="/realtime-chat.png"
         link="https://github.com/PandaX185/real-time-chat"
       />
+      <CardBlock
+        title="SAS Viya"
+        description="Started learning SAS Viya and building some visual analytics projects with it."
+        imageUrl="/sas.png"
+        link="https://github.com/PandaX185/real-time-chat"
+      />
     </div>
   );
 };
