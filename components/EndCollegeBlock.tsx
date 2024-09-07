@@ -3,7 +3,8 @@ import React from "react";
 const EndCollegeBlock = () => {
   return (
     <div className="flex h-screen w-full px-4 gap-4 justify-evenly items-center">
-      <div className="flex flex-col h-screen py-4 w-1/2 gap-2 justify-center items-center">
+      <div className="flex flex-col h-screen py-4 w-1/2 gap-2 justify-center">
+        <h1 className="text-center">First Job</h1>
         <h1>
           Later on, I joined <em>GoPlace</em> as a full time Backend Engineer
         </h1>
@@ -22,8 +23,8 @@ const EndCollegeBlock = () => {
           leave because I had to complete my military service.
         </p>
       </div>
-      <div className="flex flex-col h-screen py-4 w-1/2 gap-2 justify-center items-center">
-        <h1>
+      <div className="flex flex-col h-screen py-4 w-1/2 gap-2 justify-center">
+        <h1 className="text-center">
           My graduation project &rsquo;<em>Mawruth</em>&rsquo;
         </h1>
         <p>
