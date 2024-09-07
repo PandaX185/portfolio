@@ -5,9 +5,9 @@ import { ReactTyped } from "react-typed";
 const ChildhoodBlock = () => {
   return (
     <div className="flex w-full h-screen items-center justify-around">
-      <div className="flex flex-col gap-4 h-screen items-center justify-start">
+      <div className="flex flex-col h-screen items-center justify-start">
         <Image
-          className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-blue-300 border-blue-400"
+          className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-blue-300 border-blue-400 -ml-8 -mb-8"
           src="/childme.jpeg"
           alt="Picture child me"
           width={1000}
@@ -30,7 +30,7 @@ const ChildhoodBlock = () => {
           />
         </div>
         <Image
-          className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-blue-300 border-blue-400"
+          className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-blue-300 border-blue-400 -mt-16"
           src="/unity.png"
           alt="Unity3D"
           width={1000}
@@ -39,17 +39,14 @@ const ChildhoodBlock = () => {
       </div>
       <div className="w-2/3 h-screen flex flex-col justify-start gap-2">
         <p>
-          Started playing <em className="text-pink-600">chess</em> at elementery
-          school.
+          Started playing <em>chess</em> at elementery school.
         </p>
         <p>
-          Had a computer at a <em className="text-pink-600"> young age </em> and
-          started learning programming with{" "}
-          <em className="text-pink-600">Scratch</em>.
+          Had a computer at a <em> young age </em> and started learning
+          programming with <em>Scratch</em>.
         </p>
         <p>
-          Later on, I started learning{" "}
-          <em className="text-pink-600">Unity (version 3 and 4)</em> and made
+          Later on, I started learning <em>Unity (version 3 and 4)</em> and made
           some games.
         </p>
         <p>
@@ -57,7 +54,7 @@ const ChildhoodBlock = () => {
           time.
         </p>
         <div className="h-1/6"></div>
-        <p>
+        <p className="text-gray-500 italic">
           I used to be a gamer and played a lot of games like{" "}
           <ReactTyped
             strings={[
@@ -77,8 +74,8 @@ const ChildhoodBlock = () => {
             loop
           />
         </p>
-        <p>
-          As well as an <em className="text-pink-600"> Otaku</em> (
+        <p className="text-gray-500 italic">
+          As well as an <em> Otaku</em> (
           <ReactTyped
             strings={[
               "Dragon Ball",
