@@ -7,7 +7,7 @@ const ChildhoodBlock = () => {
     <div className="flex w-full h-screen items-center justify-around">
       <div className="flex flex-col h-screen items-center justify-start">
         <Image
-          className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-blue-300 border-blue-400 -ml-8 -mb-8"
+          className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-pink-400 border-pink-600 -ml-8 -mb-8"
           src="/childme.jpeg"
           alt="Picture child me"
           width={1000}
@@ -15,14 +15,14 @@ const ChildhoodBlock = () => {
         />
         <div className="flex gap-2">
           <Image
-            className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-blue-300 border-blue-400"
+            className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-pink-400 border-pink-600"
             src="/chess.jpeg"
             alt="Chess game"
             width={1000}
             height={1000}
           />
           <Image
-            className="rounded-full size-40 object-contain border-2 hover:border-8 duration-200 hover:border-blue-300 border-blue-400"
+            className="rounded-full size-40 object-contain border-2 hover:border-8 duration-200 hover:border-pink-400 border-pink-600"
             src="/scratch.webp"
             alt="Scratch"
             width={1000}
@@ -30,7 +30,7 @@ const ChildhoodBlock = () => {
           />
         </div>
         <Image
-          className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-blue-300 border-blue-400 -mt-16"
+          className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-pink-400 border-pink-600 -mt-16"
           src="/unity.png"
           alt="Unity3D"
           width={1000}
