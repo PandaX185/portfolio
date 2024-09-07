@@ -1,6 +1,8 @@
 "use client";
 import ChildhoodBlock from "@/components/ChildhoodBlock";
+import EndCollegeBlock from "@/components/EndCollegeBlock";
 import IntroductionBlock from "@/components/IntroductionBlock";
+import MidCollegeBlock from "@/components/MidCollegeBlock";
 import {
   FaFacebook,
   FaGithub,
@@ -23,7 +25,10 @@ export default function Home() {
       </div>
 
       <div className={sectionStyle}>
-        <h1>Part 3: The Future</h1>
+        <MidCollegeBlock />
+      </div>
+      <div className={sectionStyle}>
+        <EndCollegeBlock />
       </div>
       <div className="fixed bottom-5 right-5">
         <div className="flex flex-row-reverse gap-2">
