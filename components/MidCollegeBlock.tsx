@@ -31,8 +31,8 @@ const MidCollegeBlock = () => {
         coordinate multiple access points running OpenWrt. We also made a
         controller dashboard to provide full control over the access points.
       </p>
-      <h1>Operating System</h1>
-      <p>
+      <br />
+      <p className="text-gray-500 italic">
         I used GNU/Linux as my main OS for 4 years and have experience in{" "}
         <em>Shell(Bash,Zsh,Fish)</em> and several distros like <em>Arch</em>,{" "}
         <em>Fedora</em> and <em>Debian</em>. I&rsquo;m fond of tinkering with my
