@@ -4,8 +4,8 @@ import { ReactTyped } from "react-typed";
 
 const ChildhoodBlock = () => {
   return (
-    <div className="flex w-full h-screen items-center justify-around">
-      <div className="flex flex-col h-screen items-center justify-start">
+    <div className="flex w-full items-center justify-between">
+      <div className="flex flex-col w-1/3 items-center justify-start">
         <Image
           className="rounded-full size-40 object-cover border-2 hover:border-8 duration-200 hover:border-pink-400 border-pink-600 -ml-8 -mb-8"
           src="/childme.jpeg"
@@ -37,7 +37,7 @@ const ChildhoodBlock = () => {
           height={1000}
         />
       </div>
-      <div className="w-2/3 h-screen flex flex-col justify-start gap-2">
+      <div className="w-1/2 flex flex-col justify-start gap-2">
         <p>
           Started playing <em>chess</em> at elementery school.
         </p>

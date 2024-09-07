@@ -5,43 +5,85 @@ import IntroductionBlock from "@/components/IntroductionBlock";
 import MidCollegeBlock from "@/components/MidCollegeBlock";
 import PostCollegeBlock from "@/components/PostCollegeBlock";
 import {
+  FaDiscord,
   FaFacebook,
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
+  FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
+import { ReactTyped } from "react-typed";
 
 export default function Home() {
-  const sectionStyle = "flex flex-col items-center justify-center h-screen";
-
   return (
     <div className="font-mono bg-gray-950 text-white animate-fadeIn pb-4">
-      <div className={sectionStyle}>
+      <div>
         <IntroductionBlock />
       </div>
-      <div className="w-full text-center py-16 my-4 text-4xl text-gray-500">
-        <h1>Childhood</h1>
+      <div className="w-full text-center my-40 text-4xl text-gray-500">
+        <ReactTyped
+          className="text-pink-600"
+          strings={["'"]}
+          showCursor={false}
+        />
+        <ReactTyped
+          strings={["Childhood"]}
+          showCursor={false}
+          typeSpeed={60}
+          startWhenVisible={true}
+        />
       </div>
-      <div className={sectionStyle}>
+      <div>
         <ChildhoodBlock />
       </div>
-      <div className="w-full text-center py-16 my-4 text-4xl text-gray-500">
-        <h1>Mid college</h1>
+      <div className="w-full text-center my-40 text-4xl text-gray-500">
+        <ReactTyped
+          className="text-pink-600"
+          strings={["'"]}
+          showCursor={false}
+        />
+        <ReactTyped
+          strings={["Mid college"]}
+          showCursor={false}
+          typeSpeed={60}
+          startWhenVisible={true}
+        />{" "}
       </div>
-      <div className={sectionStyle}>
+      <div>
         <MidCollegeBlock />
       </div>
-      <div className="w-full text-center py-16 my-4 text-4xl text-gray-500">
-        <h1>Graduation</h1>
+      <div className="w-full text-center my-40 text-4xl text-gray-500">
+        <ReactTyped
+          className="text-pink-600"
+          strings={["'"]}
+          showCursor={false}
+        />
+        <ReactTyped
+          strings={["Graduation"]}
+          showCursor={false}
+          typeSpeed={60}
+          startWhenVisible={true}
+        />
       </div>
-      <div className={sectionStyle}>
+      <div>
         <EndCollegeBlock />
       </div>
-      <div className="w-full text-center py-16 my-4 text-4xl text-gray-500">
-        <h1>After college...</h1>
+      <div className="w-full text-center my-40 text-4xl text-gray-500">
+        <ReactTyped
+          className="text-pink-600"
+          strings={["'"]}
+          showCursor={false}
+        />
+        <ReactTyped
+          strings={["After college..."]}
+          showCursor={false}
+          typeSpeed={60}
+          startWhenVisible={true}
+        />
       </div>
-      <div className={sectionStyle}>
+      <div>
         <PostCollegeBlock />
       </div>
       <div className="fixed bottom-5 right-5">
@@ -78,6 +120,18 @@ export default function Home() {
               className="size-10 p-2 rounded-lg bg-black"
               color="white"
             />
+          </a>
+          <a
+            href="https://discord.com/channels/@me/636240359508279342"
+            target="_blank"
+          >
+            <FaDiscord
+              className="size-10 p-2 rounded-lg bg-black"
+              color="white"
+            />
+          </a>
+          <a href="https://x.com/PandaX185" target="_blank">
+            <FaX className="size-10 p-2 rounded-lg bg-black" color="white" />
           </a>
         </div>
       </div>

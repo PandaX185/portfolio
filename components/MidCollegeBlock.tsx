@@ -2,7 +2,7 @@ import React from "react";
 
 const MidCollegeBlock = () => {
   return (
-    <div className="flex flex-col gap-2 px-4 w-full h-screen items-center justify-start">
+    <div className="flex flex-col gap-2 px-4 w-full items-center justify-start">
       <p className="text-2xl">
         <em>Main topics I studied </em> include OS, Databases, Networks, and
         Software Engineering.

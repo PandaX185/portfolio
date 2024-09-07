@@ -43,7 +43,7 @@ const PostCollegeBlock = () => {
         title="SAS Viya"
         description="Started learning SAS Viya and building some visual analytics projects with it."
         imageUrl="/sas.png"
-        link="https://github.com/PandaX185/real-time-chat"
+        link="https://drive.google.com/file/d/1vRg17WC6ZdCheEy59RojEGqzu_7kVIFY/view?usp=sharing"
       />
     </div>
   );
