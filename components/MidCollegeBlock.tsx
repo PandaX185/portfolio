@@ -27,7 +27,7 @@ const MidCollegeBlock = () => {
         maintaing an on premise <em>CentOS</em> server.
       </p>
       <p>
-        We worked on a centralized controller for hostpot management that could
+        We worked on a centralized controller for hotspot management that could
         coordinate multiple access points running OpenWrt. We also made a
         controller dashboard to provide full control over the access points.
       </p>
